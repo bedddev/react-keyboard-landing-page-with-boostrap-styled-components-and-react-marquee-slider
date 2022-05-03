@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0b0c0d;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
+.font-primary{
+  font-family: 'Playfair Display', serif;
+}
+
+.font-secondary{
+  font-family: 'Space Mono', monospace;
+}
+
+.color-primary{
+  color: #6DEBB5 !important;
+}
+
+.color-secondary{
+  color: #FFFFFF !important;
+}
+
+.fs-10{
+  font-size: 10px;
+}
+
+.fs-12{
+  font-size: 12px;
+}
+
+.fs-14{
+  font-size: 14px;
+}
+
+.fs-16{
+  font-size: 16px;
+}
+
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-24{
+  font-size: 24px;
+}
+
+.fs-32{
+  font-size: 32px;
+}
+
+.py-c{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
