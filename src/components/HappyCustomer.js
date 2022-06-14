@@ -1,6 +1,4 @@
-import { Container, Image } from "react-bootstrap";
 import Marquee from "react-marquee-slider";
-import times from "lodash/times";
 import styled from "styled-components";
 import img1 from "../assets/img/people-1.jpg";
 import img2 from "../assets/img/people-2.jpg";
@@ -114,7 +112,7 @@ export default function HappyCustomer() {
           {Item.map((item) => (
             <BoxClient className="d-flex align-items-center justify-contents-center">
               <div class="d-flex align-items-start justify-content-between">
-                <Image src={item.photo} fluid />
+                <img src={item.photo} fluid />
                 <div>
                   <h5 className="font-primary color-secondary">{item.name}</h5>
                   <p className="font-secondary color-primary fs-12">
@@ -136,7 +134,7 @@ export default function HappyCustomer() {
           {Item2.map((item) => (
             <BoxClient className="d-flex align-items-center justify-contents-center">
               <div class="d-flex align-items-start justify-content-between">
-                <Image src={item.photo} fluid />
+                <img src={item.photo} fluid />
                 <div>
                   <h5 className="font-primary color-secondary">{item.name}</h5>
                   <p className="font-secondary color-primary fs-12">
