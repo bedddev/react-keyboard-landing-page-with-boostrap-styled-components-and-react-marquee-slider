@@ -112,7 +112,7 @@ export default function HappyCustomer() {
           {Item.map((item) => (
             <BoxClient className="d-flex align-items-center justify-contents-center">
               <div class="d-flex align-items-start justify-content-between">
-                <img src={item.photo} fluid />
+                <img src={item.photo} fluid alt={item.name}/>
                 <div>
                   <h5 className="font-primary color-secondary">{item.name}</h5>
                   <p className="font-secondary color-primary fs-12">
@@ -134,7 +134,7 @@ export default function HappyCustomer() {
           {Item2.map((item) => (
             <BoxClient className="d-flex align-items-center justify-contents-center">
               <div class="d-flex align-items-start justify-content-between">
-                <img src={item.photo} fluid />
+                <img src={item.photo} fluid alt={item.name}/>
                 <div>
                   <h5 className="font-primary color-secondary">{item.name}</h5>
                   <p className="font-secondary color-primary fs-12">
